@@ -1,0 +1,37 @@
+{
+  "loading": "Loading...",
+  "dialog": {
+    "join": "Start encrypted chat",
+    "loneliness": "\
+      No other participants in this encrypted \
+      communication. Another participant should join before you can write. \
+      Only joined participant will be able decrypt your message if it is more \
+      than two participants in a chat.\
+    ",
+    "send": "Send",
+    "resendpk": "Cannot decrypt encrypted message. This can be because \
+      your participant did not received your public key. You can {{button}} it \
+      so you will be able to decrypt subsequent messages. ",
+    "resendpk_btn": "resend",
+    "undecrypted_outgoing": "Cannot decrypt your message. This may be because you use another device to send it.",
+    "undecrypted_incoming": "Cannot decrypt message. This message was sent to another device or installation.",
+    "loadingwarn": "Searching for public keys in your conversation. \
+      It can take some time. You can stop this search if you sure that there is no (more) \
+      public keys in this conversation. This is needed for the first time because if we\
+      miss someone's public key, we will not be able to receive messages from him/her and\
+      he/she will not be able to decrypt our messages.",
+    "loadingwarn_btn": "Stop search",
+    "joined_msg": "Joined encrypted communication",
+    "prevsession": "Message cannot be decrypted"
+  },
+  "update": {
+    "text": "New version is ready for download.",
+    "cancel_btn": "Cancel",
+    "update_btn": "Update",
+    "downloading_text": "Download started. Please install it when download complete."
+  },
+  "intro": {
+    "text": "Login using your facebook account and open dialog to start encrypting communication.",
+    "ok_btn": "OK"
+  }
+}
